@@ -1,4 +1,4 @@
-# Massachusetts Areas of Critical Environmental Concern (ACEC) Analysis
+[Areas_CritENVConcern.csv](https://github.com/user-attachments/files/22049060/Areas_CritENVConcern.csv)[Areas_CritENVConcern.csv](https://github.com/user-attachments/files/22049055/Areas_CritENVConcern.csv)# Massachusetts Areas of Critical Environmental Concern (ACEC) Analysis
 
 This project analyzes **Massachusetts Areas of Critical Environmental Concern (ACEC)** using the **MassGIS dataset (April 2009)**.  
 Data preparation was performed in **QGIS**, while data cleaning and visualization were completed in **Python (pandas, matplotlib, seaborn)**.  
@@ -8,11 +8,14 @@ The goal of the project is to explore **ACEC distribution, acreage, and designat
 ---
 
 ## Project Contents
-- **/charts/** → [Key visualizations] Bar - (https://github.com/user-attachments/assets/8f3ea8b7-c90c-4084-9fc2-7d17b365825c) Scatter Plot - (https://github.com/user-attachments/assets/40cff8bc-4777-4a6c-9c0a-d796e4527d76) Line - (https://github.com/user-attachments/assets/f55604e9-39ed-4e64-be4a-d0f1e5232091)
+- **/charts/** → Key visualizations:
+-   [Bar Chart](https://github.com/user-attachments/assets/8f3ea8b7-c90c-4084-9fc2-7d17b365825c)
+-   [Scatter Plot](https://github.com/user-attachments/assets/40cff8bc-4777-4a6c-9c0a-d796e4527d76)
+-   [Line Chart](https://github.com/user-attachments/assets/f55604e9-39ed-4e64-be4a-d0f1e5232091)
 - **/maps/** → [Exported map layouts] (https://github.com/user-attachments/assets/bccf8704-1f15-4138-8c5e-47bae6da8357)
-- **/data/** → [Cleaned CSV][Uploading Areas_CritENVConcern.csv…]
+- **/data/** → [Cleaned CSV Dataset](./data/Areas_CritENVConcern.csv) 
 - **/docs/** → [Full project report] [Areas of Critical Environmental Concern.pdf](https://github.com/user-attachments/files/22048981/Areas.of.Critical.Environmental.Concern.pdf)
-  
+- 
 ---
 
 ## Methodology
