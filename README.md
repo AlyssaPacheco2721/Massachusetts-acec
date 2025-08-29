@@ -3,8 +3,7 @@
 This project analyzes **Massachusetts Areas of Critical Environmental Concern (ACEC)** using the **MassGIS dataset (April 2009)**.  
 Data preparation was performed in **QGIS**, while data cleaning and visualization were completed in **Python (pandas, matplotlib, seaborn)**.  
 
-The goal of the project is to explore **ACEC distribution, acreage, and designation trends** across the state, providing insights to support **conservation planning and environmental awareness**.  
-Code and charts are maintained on GitHub (link placeholder).  
+The goal of the project is to explore **ACEC distribution, acreage, and designation trends** across the state, providing insights to support **conservation planning and environmental awareness**.    
 
 ---
 
