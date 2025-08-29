@@ -8,10 +8,10 @@ The goal of the project is to explore **ACEC distribution, acreage, and designat
 ---
 
 ## Project Contents
-- **/charts/** → PNG images of key visualizations
-- **/maps/** → Exported map layouts (JPG) showing ACEC boundaries and spatial distribution across Massachusetts  
-- **/data/** → Cleaned CSV or Excel tables used for analysis, including ACEC attribute table with processed fields for acreage, region, and designation dates  
-- **/docs/** → Full project report in PDF format, including methodology, charts, maps, insights, and discussion of challenges and next steps
+- **/charts/** → [Key visualizations] Bar - (https://github.com/user-attachments/assets/8f3ea8b7-c90c-4084-9fc2-7d17b365825c) Scatter Plot - (https://github.com/user-attachments/assets/40cff8bc-4777-4a6c-9c0a-d796e4527d76) Line - (https://github.com/user-attachments/assets/f55604e9-39ed-4e64-be4a-d0f1e5232091)
+- **/maps/** → [Exported map layouts] (https://github.com/user-attachments/assets/bccf8704-1f15-4138-8c5e-47bae6da8357)
+- **/data/** → [Cleaned CSV][Uploading Areas_CritENVConcern.csv…]
+- **/docs/** → [Full project report] [Areas of Critical Environmental Concern.pdf](https://github.com/user-attachments/files/22048981/Areas.of.Critical.Environmental.Concern.pdf)
   
 ---
 
@@ -19,7 +19,8 @@ The goal of the project is to explore **ACEC distribution, acreage, and designat
 1. Imported the **MassGIS ACEC dataset (April 2009)** into QGIS for spatial preparation.  
 2. Cleaned and inspected the attribute table in **Python (pandas)**, handling missing values.  
 3. Verified spatial consistency and projection in **QGIS**.  
-4. Generated visualizations in **Python (matplotlib, seaborn)**:  
+4. Generated visualizations in **Python (matplotlib, seaborn)**: bar chart, scatter plot, line chart.  
+5. Maintained version control and shared results via **GitHub**.   
 
  ---
 
