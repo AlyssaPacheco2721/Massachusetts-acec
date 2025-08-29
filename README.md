@@ -26,13 +26,13 @@ The goal of the project is to explore **ACEC distribution, acreage, and designat
 ## Results
 
 ### Bar Chart — ACEC Acreage by Region
-<img width="1000" height="600" alt="areas citENVConcern BAR CHART2" src="https://github.com/user-attachments/assets/bc9e0041-5ff5-41a8-ada9-871e499cb873" />
+<img width="800" height="400" alt="areas citENVConcern BAR CHART2" src="https://github.com/user-attachments/assets/bc9e0041-5ff5-41a8-ada9-871e499cb873" />
 
 ### Scatter Plot — Designated vs GIS Polygon Acres
-<img width="800" height="600" alt="areas citENVConcern SCATTER2" src="https://github.com/user-attachments/assets/40cff8bc-4777-4a6c-9c0a-d796e4527d76" />
+<img width="600" height="400" alt="areas citENVConcern SCATTER2" src="https://github.com/user-attachments/assets/40cff8bc-4777-4a6c-9c0a-d796e4527d76" />
 
 ### Line Chart — ACEC Designations Over Time
-<img width="1000" height="600" alt="areas citENVConcern LINE CHART2" src="https://github.com/user-attachments/assets/f55604e9-39ed-4e64-be4a-d0f1e5232091" />
+<img width="800" height="400" alt="areas citENVConcern LINE CHART2" src="https://github.com/user-attachments/assets/f55604e9-39ed-4e64-be4a-d0f1e5232091" />
 
 ---
 
