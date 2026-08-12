@@ -1,54 +1,159 @@
-# Massachusetts Areas of Critical Environmental Concern (ACEC) Analysis
+# 🌿 Massachusetts Areas of Critical Environmental Concern (ACEC) Analysis
 
-This project analyzes **Massachusetts Areas of Critical Environmental Concern (ACEC)** using the **MassGIS dataset (April 2009)**.  
-Data preparation was performed in **QGIS**, while data cleaning and visualization were completed in **Python (pandas, matplotlib, seaborn)**.  
+An exploratory environmental data analysis using **QGIS and Python** to examine the distribution, acreage, and designation history of Massachusetts Areas of Critical Environmental Concern (ACECs).
 
-The goal of the project is to explore **ACEC distribution, acreage, and designation trends** across the state, providing insights to support **conservation planning and environmental awareness**.    
+## Project Overview
 
----
+This project analyzes the **MassGIS Areas of Critical Environmental Concern (ACEC) dataset** to explore spatial and quantitative patterns among protected environmental areas across Massachusetts.
 
-## Project Contents
-- **/charts/** → Key visualizations: [Bar Chart](https://github.com/user-attachments/assets/8f3ea8b7-c90c-4084-9fc2-7d17b365825c) / [Scatter Plot](https://github.com/user-attachments/assets/40cff8bc-4777-4a6c-9c0a-d796e4527d76) / [Line Chart](https://github.com/user-attachments/assets/f55604e9-39ed-4e64-be4a-d0f1e5232091)
-- **/maps/** → [Exported Map layouts](https://github.com/user-attachments/assets/bccf8704-1f15-4138-8c5e-47bae6da8357)
-- **/data/** → [Cleaned CSV Dataset](https://github.com/user-attachments/files/22049055/Areas_CritENVConcern.csv)
-- **/docs/** → [Full project report](https://github.com/user-attachments/files/22048981/Areas.of.Critical.Environmental.Concern.pdf)
+Spatial data preparation and inspection were completed in **QGIS**, while **Python** was used for data cleaning, analysis, and visualization.
+
+The project demonstrates how GIS and Python can be combined to investigate environmental conservation datasets through **spatial data preparation, quantitative analysis, and scientific visualization**.
 
 ---
 
-## Methodology
-1. Imported the **MassGIS ACEC dataset (April 2009)** into QGIS for spatial preparation.  
-2. Cleaned and inspected the attribute table in **Python (pandas)**, handling missing values.  
-3. Verified spatial consistency and projection in **QGIS**.  
-4. Generated visualizations in **Python (matplotlib, seaborn)**: bar chart, scatter plot, line chart.  
-5. Maintained version control and shared results via **GitHub**.   
+## Research Questions
 
- ---
-
-## Results
-
-### Bar Chart — ACEC Acreage by Region
-<img width="700" height="500" alt="areas citENVConcern BAR CHART2" src="https://github.com/user-attachments/assets/bc9e0041-5ff5-41a8-ada9-871e499cb873" />
-
-### Scatter Plot — Designated vs GIS Polygon Acres
-<img width="800" height="500" alt="areas citENVConcern SCATTER2" src="https://github.com/user-attachments/assets/40cff8bc-4777-4a6c-9c0a-d796e4527d76" />
-
-### Line Chart — ACEC Designations Over Time
-<img width="800" height="500" alt="areas citENVConcern LINE CHART2" src="https://github.com/user-attachments/assets/f55604e9-39ed-4e64-be4a-d0f1e5232091" />
+- How is ACEC acreage distributed across Massachusetts?
+- How does designated acreage compare with GIS polygon acreage?
+- How have ACEC designations changed over time?
+- How can GIS and Python be combined to explore statewide conservation data?
 
 ---
 
-## Full Report
-For a detailed write-up with integrated charts and maps, see the  
-[Areas of Critical Environmental Concern.pdf](https://github.com/user-attachments/files/22048688/Areas.of.Critical.Environmental.Concern.pdf)
+## Tools & Skills
+
+**QGIS • Python • pandas • matplotlib • seaborn • GIS • Spatial Data • Data Cleaning • Exploratory Data Analysis • Environmental Data Visualization**
+
+- **QGIS** — spatial data preparation, projection verification, attribute inspection, and map development.
+- **Python / pandas** — data cleaning, inspection, and quantitative analysis.
+- **matplotlib / seaborn** — creation of statistical and exploratory visualizations.
+- **GitHub** — project documentation and version control.
 
 ---
 
 ## Data Source
-- **MassGIS Data: Areas of Critical Environmental Concern (April 2009)**  
-- Software: QGIS, Python (pandas, matplotlib, seaborn)  
+
+**MassGIS — Areas of Critical Environmental Concern (ACEC), April 2009**
+
+The dataset contains spatial and attribute information describing Massachusetts Areas of Critical Environmental Concern.
+
+ACECs provide the geographic framework for examining protected environmental areas, acreage, and designation patterns across the state.
+
+---
+
+## Methodology
+
+### 1. Spatial Data Preparation
+
+The MassGIS ACEC dataset was imported into **QGIS** for spatial preparation and inspection.
+
+- Reviewed spatial features and associated attributes.
+- Verified spatial consistency and projection.
+- Prepared the dataset for further analysis.
+
+### 2. Data Cleaning & Inspection
+
+Attribute data were examined and cleaned using **Python and pandas**.
+
+The workflow included:
+
+- Inspecting dataset structure and variables.
+- Identifying and handling missing values.
+- Preparing relevant fields for quantitative analysis.
+- Checking data prior to visualization.
+
+### 3. Exploratory Analysis
+
+The cleaned data were analyzed to examine several characteristics of Massachusetts ACECs, including:
+
+- Acreage by region.
+- Differences between designated acreage and GIS polygon acreage.
+- ACEC designation patterns over time.
+
+### 4. Data Visualization
+
+Visualizations were created in **Python using matplotlib and seaborn** to make patterns in the ACEC dataset easier to interpret.
+
+---
+
+## Results
+
+### ACEC Acreage by Region
+
+<img width="700" alt="ACEC acreage by region bar chart" src="https://github.com/user-attachments/assets/bc9e0041-5ff5-41a8-ada9-871e499cb873">
+
+The bar chart compares ACEC acreage across geographic regions, providing a visual overview of how designated environmental areas are distributed across Massachusetts.
+
+---
+
+### Designated vs. GIS Polygon Acres
+
+<img width="800" alt="Designated acreage versus GIS polygon acreage scatter plot" src="https://github.com/user-attachments/assets/40cff8bc-4777-4a6c-9c0a-d796e4527d76">
+
+The scatter plot compares designated ACEC acreage with acreage represented by GIS polygons, allowing differences between the two measurements to be visually examined.
+
+---
+
+### ACEC Designations Over Time
+
+<img width="800" alt="ACEC designations over time line chart" src="https://github.com/user-attachments/assets/f55604e9-39ed-4e64-be4a-d0f1e5232091">
+
+The time-series visualization examines the historical pattern of ACEC designations represented in the dataset.
+
+---
+
+## GIS Visualization
+
+🗺️ [View Exported ACEC Map](https://github.com/user-attachments/assets/bccf8704-1f15-4138-8c5e-47bae6da8357)
+
+The GIS map provides spatial context for the quantitative analysis and illustrates the geographic distribution of Areas of Critical Environmental Concern across Massachusetts.
+
+---
+
+## Project Outputs
+
+- 📊 [ACEC Acreage Bar Chart](https://github.com/user-attachments/assets/8f3ea8b7-c90c-4084-9fc2-7d17b365825c)
+- 📈 [Designated vs. GIS Polygon Acreage Scatter Plot](https://github.com/user-attachments/assets/40cff8bc-4777-4a6c-9c0a-d796e4527d76)
+- 📉 [ACEC Designations Over Time](https://github.com/user-attachments/assets/f55604e9-39ed-4e64-be4a-d0f1e5232091)
+- 🗺️ [Exported GIS Map](https://github.com/user-attachments/assets/bccf8704-1f15-4138-8c5e-47bae6da8357)
+- 📁 [Cleaned ACEC Dataset](https://github.com/user-attachments/files/22049055/Areas_CritENVConcern.csv)
+- 📄 [Full Project Report](https://github.com/user-attachments/files/22048981/Areas.of.Critical.Environmental.Concern.pdf)
+
+---
+
+## Key Takeaways
+
+This project demonstrates a workflow that combines **GIS and programmatic environmental data analysis**.
+
+Rather than using GIS only for map creation, spatial information was prepared in QGIS and then analyzed quantitatively using Python. The resulting visualizations provide multiple ways to examine acreage, spatial representation, and designation history within the Massachusetts ACEC dataset.
+
+---
+
+## Future Development
+
+Future versions of this project could extend the analysis through:
+
+- Additional spatial analysis of ACEC distribution.
+- Comparison with land use, habitat, or conservation-priority datasets.
+- Statistical analysis of regional differences.
+- Automated geospatial processing using Python.
+- Development of an interactive GIS visualization or dashboard.
+
+---
+
+## Data & Citation
+
+**Data Source:** MassGIS. *Areas of Critical Environmental Concern (ACEC), April 2009.*
+
+**Project Citation**
+
+Pacheco, A. *Massachusetts Areas of Critical Environmental Concern (ACEC) Analysis.*
 
 ---
 
 ## Author
-**Alyssa Pacheco**  
-Environmental Science | GIS & Data Science 
+
+**Alyssa Pacheco**
+
+Environmental Scientist | Coastal & Marine Science | GIS & Environmental Data Analysis
