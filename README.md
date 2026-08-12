@@ -23,12 +23,13 @@ The project demonstrates how GIS and Python can be combined to investigate envir
 
 ## Tools & Skills
 
-**QGIS • Python • pandas • matplotlib • seaborn • GIS • Spatial Data • Data Cleaning • Exploratory Data Analysis • Environmental Data Visualization**
+**QGIS • Python • pandas • matplotlib • seaborn • GIS • Spatial Data • Data Aggregation • Exploratory Data Analysis • Environmental Data Visualization**
 
 - **QGIS** — spatial data preparation, projection verification, attribute inspection, and map development.
-- **Python / pandas** — data cleaning, inspection, and quantitative analysis.
-- **matplotlib / seaborn** — creation of statistical and exploratory visualizations.
-- **GitHub** — project documentation and version control.
+- **Python / pandas** — data loading, aggregation, date processing, and preparation of environmental data for analysis.
+- **matplotlib / seaborn** — creation and formatting of bar, scatter, and time-series visualizations.
+- **GIS analysis** — integration of spatial and quantitative approaches to examine Massachusetts conservation areas.
+- **GitHub** — source code documentation and project version control.
 
 ---
 
@@ -73,7 +74,13 @@ The cleaned data were analyzed to examine several characteristics of Massachuset
 
 ### 4. Data Visualization
 
-Visualizations were created in **Python using matplotlib and seaborn** to make patterns in the ACEC dataset easier to interpret.
+Visualizations were created programmatically in **Python using matplotlib and seaborn** to examine:
+
+- Total ACEC acreage by region.
+- Designated ACEC acreage compared with GIS polygon acreage.
+- The number of ACEC designations over time.
+
+The Python analysis and visualization workflow is available in [`acec_analysis.py`](acec_analysis.py).
 
 ---
 
@@ -113,11 +120,12 @@ The GIS map provides spatial context for the quantitative analysis and illustrat
 
 ## Project Outputs
 
+- 🐍 [`acec_analysis.py`](acec_analysis.py) — Python analysis and visualization script using pandas, matplotlib, and seaborn
 - 📊 [ACEC Acreage Bar Chart](https://github.com/user-attachments/assets/8f3ea8b7-c90c-4084-9fc2-7d17b365825c)
 - 📈 [Designated vs. GIS Polygon Acreage Scatter Plot](https://github.com/user-attachments/assets/40cff8bc-4777-4a6c-9c0a-d796e4527d76)
 - 📉 [ACEC Designations Over Time](https://github.com/user-attachments/assets/f55604e9-39ed-4e64-be4a-d0f1e5232091)
 - 🗺️ [Exported GIS Map](https://github.com/user-attachments/assets/bccf8704-1f15-4138-8c5e-47bae6da8357)
-- 📁 [Cleaned ACEC Dataset](https://github.com/user-attachments/files/22049055/Areas_CritENVConcern.csv)
+- 📁 [`Areas_CritENVConcern.csv`](Areas_CritENVConcern.csv) — ACEC dataset used in the Python analysis
 - 📄 [Full Project Report](https://github.com/user-attachments/files/22048981/Areas.of.Critical.Environmental.Concern.pdf)
 
 ---
